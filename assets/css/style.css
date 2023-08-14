@@ -25,6 +25,19 @@ body {
 
 }
 
+
+
+/* header */
+header {
+    background-color: #ffffff;
+    /*to make sure it stays above other element with z-index */
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    padding-inline: 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -37,17 +50,13 @@ h1 {
     letter-spacing: 2px;
 }
 
-
-
-/* header */
-header {
-    background-color: #ffffff;
-    /*to make sure it stays above other element with z-index */
-    z-index: 99;
-    position: fixed;
-    width: 100%;
-    padding-inline: 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+#menu {
+    letter-spacing: 4px;
+    list-style-type: none;
+    font-size: 110%;
+}
+#menu > li{
+    margin-bottom: 1em;
 }
 
 /* main */
