@@ -11,6 +11,8 @@
 
 /* General Styles */
 
+
+
 body {
     /* min-height allows  to strecth larger than Heigth of screen when theres enough content on the screen ; */
     min-height: 100vh;
@@ -25,7 +27,9 @@ body {
 }
 
 
-
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
 
 /* header */
 header {
