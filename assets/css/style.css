@@ -23,18 +23,25 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 
-
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
 h1 {
+    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
+    color: #252525;
+    letter-spacing: 2px;
 }
+
+
 
 /* header */
 header {
     background-color: #ffffff;
-
     /*to make sure it stays above other element with z-index */
     z-index: 99;
     position: fixed;
