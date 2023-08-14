@@ -33,7 +33,14 @@ h1 {
 
 /* header */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+
+    /*to make sure it stays above other element with z-index */
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    padding-inline: 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 /* main */
